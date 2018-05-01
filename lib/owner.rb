@@ -52,4 +52,7 @@ class Owner
     end
   end
 
+  def feed_fish
+  end
+
 end
