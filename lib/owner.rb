@@ -59,7 +59,7 @@ class Owner
   end
 
   def sell_pets
-    pets.each do |pet|
+    pets.each do |species, animals|
       fish.mood = "nervous"
       cat.mood = "nervous"
       dog.mood = "nervous"
